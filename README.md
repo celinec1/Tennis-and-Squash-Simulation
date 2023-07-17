@@ -11,7 +11,7 @@ The tennis and squash simulation is a playable 1 or 2 player game that can be pl
 
 # File Hierarchy
 
-... bash
+```
 
 |-- game.v
     |--tennis.v
@@ -20,5 +20,5 @@ The tennis and squash simulation is a playable 1 or 2 player game that can be pl
 |
 
 
-...
+```
 
