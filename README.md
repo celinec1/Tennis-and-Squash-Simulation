@@ -1,9 +1,9 @@
 # FPGA Tennis and Squash Simulation
 
 # Project Description
-This project is a culmination of our learnings from EC311 Intro to Logic Design.
+This project is a culmination of our learnings from EC311 Intro to Logic Design. 
 
-The tennis and squash simulation is a playable 1 or 2 player game that can be played on an FPGA board. The LED light represents the movement of a ball moving where with every hit, the ball speed increases. The tennis game is won by the first player to reach 3 points and the squash game is a continuous game which you try to reach the highest score possible.
+This verilog project is a playable 1 (Squash) or 2 (Tennis) player game that can be enjoyed on an FPGA board. The LED light represents the ball's movement which is hit back and forth with increasing speed after each hit. In the tennis game, the first player to reach 3 points wins, while the squash game is continuous, challenging players to achieve the highest score possible.
 
 # Key Files For Functionality
 1. debouncer.v - The debouncer is essential to properly manage button inputs so the program does not interpret a single button press as multiple clicks. Also this helps prevent an easy cheat in which the user could hold down the button and guarantee a sucessful hit.
