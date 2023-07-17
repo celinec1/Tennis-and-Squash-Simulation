@@ -15,14 +15,15 @@ The tennis and squash simulation is a playable 1 or 2 player game that can be pl
 
 |-- game.v
     |-- tennis.v
-       |-- debouncer.v
-       |-- player.v
-           |-- slow_ball.v
-               |-- clk_divider.v
-               |-- ball.v
-       |-- display_score.v
+    |   |-- debouncer.v
+    |   |-- display_score.v
+    |   |-- player.v
+    |       |-- slow_ball.v
+    |           |-- clk_divider.v
+    |       |-- ball.v
     |--squash.v
        |-- debouncer.v
+       |-- squash_display_score.v
        |-- squash_player.v
            |-- slow_ball.v
                |-- clk_divider.v
