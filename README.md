@@ -21,6 +21,7 @@ This verilog project is a playable 1 (Squash) or 2 (Tennis) player game that can
     |       |-- slow_ball.v
     |           |-- clk_divider.v
     |       |-- ball.v
+    |
     |--squash.v
        |-- debouncer.v
        |-- squash_display_score.v
